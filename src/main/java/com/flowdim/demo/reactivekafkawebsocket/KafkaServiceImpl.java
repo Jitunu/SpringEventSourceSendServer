@@ -33,7 +33,7 @@ public class KafkaServiceImpl implements KafkaService {
 
         ReceiverOptions<String, String> receiverOptions = ReceiverOptions.create(kafkaProperties);
 
-        testTopicStream = createTopicCache(receiverOptions, "testTopic");
+        testTopicStream = createTopicCache(receiverOptions, "KAFA_STP");
     }
 
 
